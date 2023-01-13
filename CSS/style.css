@@ -107,6 +107,11 @@ body {
 
 /* Responsive Header */
 
+#responsive-nav-bar {
+  display: none;
+}
+
+
 #responsive-header {
   display: none;
 }

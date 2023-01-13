@@ -1,0 +1,11 @@
+#header .navbar-brand img {
+    max-width: 15%; /* ensures the logo will not exceed the width of its parent container */
+    height: auto; /* maintains the aspect ratio of the image */
+}
+
+@media only screen and (max-width: 1000px) {
+    #header .navbar-brand {
+      display: none; /* hide the logo */
+    }
+  }
+  

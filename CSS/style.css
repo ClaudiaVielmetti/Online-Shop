@@ -107,6 +107,10 @@ body {
 
 /* Responsive Header */
 
+#hamburger-menu-button {
+  color: black;
+}
+
 #responsive-nav-bar {
   display: none;
 }
@@ -130,6 +134,11 @@ body {
 }
 
 
+@media screen and (min-width: 768px) {
+  #responsive-header {
+      display: none;
+  }
+}
 
 
 

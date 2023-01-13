@@ -29,7 +29,7 @@ body {
 }
 
 
-/* ----- General Header CSS ------ */
+/* ----- General Header CSS ------ 
 
 #header {
   position: fixed;
@@ -43,7 +43,15 @@ body {
   font-size: 19px;
   min-height: 100px;
 }
+*/
 
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1; /* ensures the navbar stays on top of other elements */
+    background-color: #fff; /* set the background color of the navbar */
+}
 
 
 
@@ -148,10 +156,11 @@ Tags included:
 
   /* Texy style */
   text-align: center;
-  color: white;
+  color: #df1f27;
 
   /* Background image */
   background-image: url('../assets/Images/banner.jpg');
+  opacity:89%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -168,9 +177,9 @@ Tags included:
 }
 
 #hero-button {
-  border: solid 2px white;
+  border: solid 2px rgb(156, 17, 17);
   background-color: inherit;
-  color: white;
+  color: #df1f27;
   margin-top: 6%;
   width: 25%;
   height: 55px;

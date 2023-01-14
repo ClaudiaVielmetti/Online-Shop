@@ -55,7 +55,7 @@ nav img {
   content: '';
   width: 0%;
   height: 2px;
-  background: #9c8367;
+  background: #96be25;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -117,9 +117,10 @@ nav img {
 
 /* styling the hover effect when your cursor is on the button */
 .hero-btn:hover {
-  border: 1px solid #9c8367;
-  background: #9c8367;
+  border: 1px solid #be2596;
+  background: #be2596;
   transition: 1s;
+  color: #fff;
 }
 
 .hero-btn-clean {
@@ -164,7 +165,7 @@ nav .fa {
 
   .nav-links {
       position: fixed;
-      background: #9c8367;
+      background: #96be25;
       height: 100vh;
       width: 200px;
       top: 0%;

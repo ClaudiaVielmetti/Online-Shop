@@ -76,10 +76,7 @@ nav img {
 
 /* Banner Content Section */
 
-.backdoorlogo {
-  width: 700px;
-  padding: 20px;
-}
+
 
 /* styling the center text  */
 .text-box {
@@ -135,16 +132,7 @@ nav img {
   cursor: pointer;
 }
 
-@media (max-width: 700px) {
-  .backdoorlogo {
-      width: 400px;
-  }
-}
 
-/* disable video controls */
-video::-webkit-media-controls {
-  display: none;
-}
 
 /* responsive design code for HERO Section*/
 
@@ -188,60 +176,4 @@ nav .fa {
       padding: 30px;
   }
 }
-
-/* ---- Course Section---- */
-
-.course {
-  width: 60%;
-  margin: auto;
-  text-align: center;
-  padding-top: 100px;
-}
-
-.campus-col {
-  height: 500px;
-}
-
-.img {
-  height: 500px;
-}
-
-.row {
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.course-col {
-  flex-basis: 16%;
-  height: 500px;
-  background: #fff3f3;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 30px 12px;
-  box-sizing: border-box;
-  transition: 0.5s;
-}
-
-#gear {
-  height: 600px;
-  width: max-content;
-}
-
-/* hover effect on colums box shadow on hover*/
-.course-col:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-}
-
-/* --- The responsive code for the COURSE SECTION setting it to columns---*/
-
-@media (max-width: 700px) {
-  .row {
-      flex-direction: column;
-  }
-
-
-}
-
-
 

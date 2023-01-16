@@ -1,5 +1,3 @@
-//New Arrivals
-
 const sizes = document.querySelectorAll('.size');
 const colors = document.querySelectorAll('.color');
 const shoes = document.querySelectorAll('.shoe');

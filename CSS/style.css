@@ -182,11 +182,6 @@ nav .fa {
 
 /* New arrivals */
 
-:root{
-  --primary: #2175f5;
-}
-
-
 .container{
   min-height: 100vh;
   display: flex;

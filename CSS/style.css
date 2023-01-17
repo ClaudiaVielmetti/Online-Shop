@@ -189,21 +189,23 @@ nav .fa {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
+    padding: 40px;
     overflow: hidden;
 }
 
 .card{
-    display: flex;
+    display: table-row;
     justify-content: center;
     align-items: center;
     width: 860px;
+    height: auto;
+    
 }
 
 .shoeBackground{
     position: relative;
     width: 50%;
+    float: left;
     height: 475px;
     box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
     0 -15px 35px rgba(0, 0, 0, 0.1),
@@ -315,6 +317,7 @@ nav .fa {
     right: 0;
     transform: rotate(-20deg);
     transition: .5s;
+    
 }
 
 .shoe.show{
@@ -323,6 +326,7 @@ nav .fa {
 
 .info{
     width: 50%;
+    float: right;
     background-color: #fff;
     z-index: 1;
     padding: 35px 40px;
@@ -493,7 +497,7 @@ nav .fa {
     padding: .7rem 1rem;
     background-color: var(--primary);
     text-decoration: none;
-    color: #fff;
+    color: #fff; 
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 500;

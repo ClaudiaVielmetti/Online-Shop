@@ -53,7 +53,7 @@ nav img {
   position: relative;
 }
 
-/* styling the links itself  with colour and font size etc etc*/
+/* styling the links itself  with color and font size etc etc*/
 .nav-links ul li a {
   color: #fff;
   text-decoration: none;
@@ -188,6 +188,7 @@ nav .fa {
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
+  
 }
 
 .row {
@@ -205,6 +206,7 @@ nav .fa {
 
 .categories {
   margin: 70px 0;
+  
 }
 
 .col-3 {
@@ -274,4 +276,5 @@ h4 {
 
 .col-4:hover {
   transform: translateY(-5px);
+  
 }

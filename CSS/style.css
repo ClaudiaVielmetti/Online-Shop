@@ -247,7 +247,7 @@ nav .fa {
 }
 .title::after {
   content: "";
-  background: #ff523b;
+  background: #be2596;
   width: 80px;
   height: 5px;
   border-radius: 5px;
@@ -267,11 +267,11 @@ h4 {
 }
 
 .rating .fas {
-  color: #ff523b;
+  color: #be2596;
 }
 
 .rating .far {
-  color: #ff523b;
+  color: #be2596;
 }
 
 .col-4:hover {

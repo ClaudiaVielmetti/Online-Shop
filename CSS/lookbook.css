@@ -1,184 +1,183 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  body {
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #fff;
-  }
-  
-  /* Styling the banner hero section area */
-  .head-look {
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(
-        rgba(4, 9, 30, 0.7),
-        rgba(255, 255, 255, 0.127)
-      ),
-      url("../assets/Images/camera.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-  }
-  
-  /* display the alignment for the container items */
-  nav {
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  /* The LEFT logo image size goes here*/
-  nav img {
-    width: 150px;
-  }
-  
-  /* Aligning the links to the right  */
-  .nav-links {
-    flex: 1;
-    text-align: right;
-  }
-  
-  /* styling the text  */
-  .nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-  }
-  
-  /* styling the links itself  with color and font size etc etc*/
-  .nav-links ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 13px;
-  }
-  
-  /* styling the hover effect on the links when you hover*/
-  .nav-links ul li ::after {
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: #96be25;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-  }
-  
-  /* styling what happens after you hover on it  */
-  .nav-links ul li :hover::after {
-    width: 100%;
-  }
-  
-  .fixed-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  /* Banner Content Section */
-  
-  /* styling the center text  */
-  .text-box {
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff;
+}
+
+/* Styling the banner hero section area */
+.head-look {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(4, 9, 30, 0.7),
+      rgba(255, 255, 255, 0.127)
+    ),
+    url("../assets/Images/camera.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* display the alignment for the container items */
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* The LEFT logo image size goes here*/
+nav img {
+  width: 150px;
+}
+
+/* Aligning the links to the right  */
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+/* styling the text  */
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+/* styling the links itself  with color and font size etc etc*/
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* styling the hover effect on the links when you hover*/
+.nav-links ul li ::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #96be25;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+/* styling what happens after you hover on it  */
+.nav-links ul li :hover::after {
+  width: 100%;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Banner Content Section */
+
+/* styling the center text  */
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-box h1 {
+  font-size: 62px;
+}
+
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* styling the middle banner button */
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+/* styling the hover effect when your cursor is on the button */
+.hero-btn:hover {
+  border: 1px solid #be2596;
+  background: #be2596;
+  transition: 1s;
+  color: #fff;
+}
+
+.hero-btn-clean {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+/* responsive design code for HERO Section*/
+
+/* burger bar for responsive hidden */
+nav .fa {
+  display: none;
+}
+
+@media (max-width: 700px) {
   .text-box h1 {
-    font-size: 62px;
+    font-size: 20px;
   }
-  
-  .text-box p {
-    margin: 10px 0 40px;
-    font-size: 14px;
-    color: #fff;
+
+  .nav-links ul li {
+    display: block;
   }
-  
-  /* styling the middle banner button */
-  .hero-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  /* styling the hover effect when your cursor is on the button */
-  .hero-btn:hover {
-    border: 1px solid #be2596;
-    background: #be2596;
+
+  .nav-links {
+    position: fixed;
+    background: #96be25;
+    height: 100vh;
+    width: 200px;
+    top: 0%;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
     transition: 1s;
-    color: #fff;
   }
-  
-  .hero-btn-clean {
-    display: inline-block;
-    text-decoration: none;
-    color: #000;
-    border: 1px solid #000;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
+
+  /* burger bar displayed when open  */
+  nav .fa {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
     cursor: pointer;
   }
-  
-  /* responsive design code for HERO Section*/
-  
-  /* burger bar for responsive hidden */
-  nav .fa {
-    display: none;
+
+  .nav-links ul {
+    padding: 30px;
   }
-  
-  @media (max-width: 700px) {
-    .text-box h1 {
-      font-size: 20px;
-    }
-  
-    .nav-links ul li {
-      display: block;
-    }
-  
-    .nav-links {
-      position: fixed;
-      background: #96be25;
-      height: 100vh;
-      width: 200px;
-      top: 0%;
-      right: -200px;
-      text-align: left;
-      z-index: 2;
-      transition: 1s;
-    }
-  
-    /* burger bar displayed when open  */
-    nav .fa {
-      display: block;
-      color: #fff;
-      margin: 10px;
-      font-size: 22px;
-      cursor: pointer;
-    }
-  
-    .nav-links ul {
-      padding: 30px;
-    }
-  }
-  
+}

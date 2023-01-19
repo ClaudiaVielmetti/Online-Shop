@@ -1,6 +1,8 @@
 
 //LOOKBOOK JS !!
 // References to DOM Elements
+
+
 const prevBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");
 const book = document.querySelector("#book");
@@ -10,6 +12,24 @@ const paper2 = document.querySelector("#p2");
 const paper3 = document.querySelector("#p3");
 const paper4 = document.querySelector("#p4");
 const paper5 = document.querySelector("#p5");
+
+
+
+const flipBook = document.querySelector('.book');
+
+function adjustBookSize() {
+  if (window.innerWidth >= 768) {
+    flipBook.style.width = "350px";
+    flipBook.style.height = "500px";
+  } else {
+    flipBook.style.width = "300px";
+    flipBook.style.height = "450px";
+  }
+}
+
+adjustBookSize();
+window.addEventListener("resize", adjustBookSize);
+
 
 // Event Listener
 prevBtn.addEventListener("click", goPrevPage);

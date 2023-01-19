@@ -86,7 +86,7 @@ function goNextPage() {
            
                 break;
             case 5:
-
+                closeBook(false);  
                 paper5.classList.add("flipped");
                 paper5.style.zIndex = 5;
                 break;

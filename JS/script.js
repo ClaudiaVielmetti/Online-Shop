@@ -16,7 +16,7 @@ nextBtn.addEventListener("click", goNextPage);
 // Business Logic
 let currentLocation = 1;
 let numOfPapers = 5;
-let maxLocation = numOfPapers + 1;
+let maxLocation = numOfPapers +1 ;
 
 function openBook() {
     book.style.transform = "translateX(50%)";
@@ -27,12 +27,12 @@ function openBook() {
 
 //boolean parameter - true or false
 function closeBook(isAtBeginning) {
-    if (isAtBeginning) {
+    if(isAtBeginning) {
         book.style.transform = "translateX(0%)";
     } else {
         book.style.transform = "translateX(100%)";
     }
-
+    
     prevBtn.style.transform = "translateX(0px)";
     nextBtn.style.transform = "translateX(0px)";
 }
@@ -46,7 +46,7 @@ function goNextPage() {
                 paper1.style.zIndex = 1;
                 break;
             case 2:
-                openBook();
+              
                 paper2.classList.add("flipped");
                 paper2.style.zIndex = 2;
                 break;
@@ -54,13 +54,13 @@ function goNextPage() {
 
                 paper3.classList.add("flipped");
                 paper3.style.zIndex = 3;
-                closeBook(false);
+    
                 break;
             case 4:
 
                 paper4.classList.add("flipped");
                 paper4.style.zIndex = 4;
-                closeBook(false);
+           
                 break;
             case 5:
 

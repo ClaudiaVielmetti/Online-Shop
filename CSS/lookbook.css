@@ -196,3 +196,24 @@ nav .fa {
   width: 350px;
   height: 500px;
 }
+
+.page {
+  border: 1px solid #96be25;
+  position: absolute; /*in order to make sure the pages overlap*/
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+}
+.front,
+.back {
+    background-color: #fff;
+    position: absolute; /*in order to make sure the pages overlap*/
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+

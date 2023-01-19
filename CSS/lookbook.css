@@ -84,60 +84,10 @@ nav img {
   z-index: 1;
 }
 
-/* Banner Content Section */
-
-/* styling the center text  */
-.text-box {
-  width: 90%;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.text-box h1 {
-  font-size: 62px;
-}
-
-.text-box p {
-  margin: 10px 0 40px;
-  font-size: 14px;
-  color: #fff;
-}
-
-/* styling the middle banner button */
-.hero-btn {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid #fff;
-  padding: 12px 34px;
-  font-size: 13px;
-  background: transparent;
-  position: relative;
-  cursor: pointer;
-}
-
-/* styling the hover effect when your cursor is on the button */
-.hero-btn:hover {
-  border: 1px solid #be2596;
-  background: #be2596;
-  transition: 1s;
-  color: #fff;
-}
-
-.hero-btn-clean {
-  display: inline-block;
-  text-decoration: none;
-  color: #000;
-  border: 1px solid #000;
-  padding: 12px 34px;
-  font-size: 13px;
-  background: transparent;
-  position: relative;
-  cursor: pointer;
+#cart-icon {
+    font-size: 100%;
+    font-weight: 800;
+    color: #fff;
 }
 
 /* responsive design code for HERO Section*/

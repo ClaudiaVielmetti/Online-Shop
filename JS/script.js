@@ -14,7 +14,7 @@ const paper4 = document.querySelector("#p4");
 const paper5 = document.querySelector("#p5");
 
 
-
+//trying responsiveness
 const flipBook = document.querySelector('.book');
 
 function adjustBookSize() {

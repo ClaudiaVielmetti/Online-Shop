@@ -85,9 +85,9 @@ nav img {
 }
 
 #cart-icon {
-    font-size: 100%;
-    font-weight: 800;
-    color: #fff;
+  font-size: 100%;
+  font-weight: 800;
+  color: #fff;
 }
 
 /* responsive design code for HERO Section*/
@@ -172,7 +172,7 @@ nav .fa {
 .front {
   z-index: 1;
   backface-visibility: hidden;
-    border-left: 3px solid darkgrey;
+  border-left: 3px solid darkgrey;
 }
 
 .back {
@@ -189,14 +189,14 @@ nav .fa {
 }
 
 .back-content {
-    transform: rotateY(180deg)
+  transform: rotateY(180deg);
 }
 
 /*paper flip effect*/
 
 .flipped .front,
 .flipped .back {
-    transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
 }
 
 /*Buttons*/
@@ -245,19 +245,4 @@ i {
 }
 
 
-/* Styles for screens larger than 768px */
-@media (min-width: 768px) {
-    .book {
-      width: 350px;
-      height: 500px;
-    }
-  }
-  
-  /* Styles for large-screen class */
-  .large-screen {
-    width: 400px;
-    height: 550px;
-  }
-
 /*Adding pictures and designs to the book*/
-

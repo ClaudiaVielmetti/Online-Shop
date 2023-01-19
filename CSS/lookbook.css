@@ -191,104 +191,105 @@ nav .fa {
 }
 
 .book {
-
   position: relative;
   width: 350px;
   height: 500px;
+  transition: transform 0.5s;
 }
 
 .page {
-
   position: absolute; /*in order to make sure the pages overlap*/
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   perspective: 1500px;
-
 }
+
 .front,
 .back {
-    background-color: #fff;
-    position: absolute; /*in order to make sure the pages overlap*/
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    transform-origin: left;
-    transition: transform 0.5s;
+  background-color: #fff;
+  position: absolute; /*in order to make sure the pages overlap*/
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform-origin: left;
+  transition: transform 0.5s;
 }
-
 
 /*Changed the z-index front higher than back page so it can show up first*/
 .front {
-    z-index: 1;
+  z-index: 1;
+  backface-visibility: hidden;
+    border-left: 3px solid darkgrey;
 }
 
 .back {
-    z-index: 0;
+  z-index: 0;
 }
 
 .front-content,
 .back-content {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/*Buttons*/
-
-button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin: 10px;
-
-}
-
-button:focus {
-    outline: none;
-
-}
-
-button:hover i {
-    color:#636363;
-
-}
-
-i {
-    font-size: 50px;
-    color: gray;
-}
-
-/*Pages stack order*/
-
-#p1 {
-    z-index: 5;
-}
-
-#p2 {
-    z-index: 4;
-}
-
-#p3 {
-    z-index: 3;
-}
-
-#p4 {
-    z-index: 2;
-}
-
-#p5 {
-    z-index: 1;
+.back-content {
+    transform: rotateY(180deg)
 }
 
 /*paper flip effect*/
 
 .flipped .front,
 .flipped .back {
-    transform: rotateY('-180deg');
+    transform: rotateY(-180deg);
+}
+
+/*Buttons*/
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.5s;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover i {
+  color: #636363;
+}
+
+i {
+  font-size: 50px;
+  color: gray;
+}
+
+/*Pages stack order*/
+
+#p1 {
+  z-index: 5;
+}
+
+#p2 {
+  z-index: 4;
+}
+
+#p3 {
+  z-index: 3;
+}
+
+#p4 {
+  z-index: 2;
+}
+
+#p5 {
+  z-index: 1;
 }

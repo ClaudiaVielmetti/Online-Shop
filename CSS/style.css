@@ -278,3 +278,19 @@ h4 {
   transform: translateY(-5px);
   
 }
+
+
+/*About page css*/
+
+.head-about {
+  min-height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(4, 9, 30, 0.7),
+      rgba(255, 255, 255, 0.127)
+    ),
+    url("../assets/Images/about.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}

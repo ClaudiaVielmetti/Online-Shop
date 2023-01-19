@@ -216,4 +216,10 @@ nav .fa {
     left: 0;
 }
 
+.front {
+    z-index: 1;
+}
 
+.back {
+    z-index: 0;
+}

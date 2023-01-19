@@ -39,6 +39,7 @@ function closeBook(isAtBeginning) {
     nextBtn.style.transform = "translateX(0px)";
 }
 
+//next page toggle function
 function goNextPage() {
     if (currentLocation < maxLocation) {
         switch (currentLocation) {
@@ -76,6 +77,7 @@ function goNextPage() {
     }
 }
 
+//previous page toggle function
 function goPrevPage() {
     if (currentLocation > 1) {
         switch (currentLocation) {

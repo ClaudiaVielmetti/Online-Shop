@@ -181,3 +181,18 @@ nav .fa {
     padding: 30px;
   }
 }
+
+/*Book*/
+.lookbook {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.book {
+  border: 1px solid black;
+  position: relative;
+  width: 350px;
+  height: 500px;
+}

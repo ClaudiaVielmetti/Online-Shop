@@ -1,3 +1,5 @@
+
+//LOOKBOOK JS !!
 // References to DOM Elements
 const prevBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");

@@ -225,12 +225,12 @@ button:focus {
 }
 
 button:hover i {
-  color: #636363;
+  color: #864e77;
 }
 
 i {
   font-size: 50px;
-  color: gray;
+  color: #be2596;
 }
 
 /*Pages stack order*/

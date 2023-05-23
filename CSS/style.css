@@ -12,6 +12,7 @@ body {
   background: #fff;
 }
 
+
 /* Styling the banner hero section area */
 .header {
   min-height: 100vh;
@@ -83,6 +84,8 @@ nav img {
   width: 100%;
   z-index: 1;
 }
+
+
 
 /* Banner Content Section */
 

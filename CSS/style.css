@@ -27,6 +27,8 @@ body {
   position: relative;
 }
 
+
+
 /* display the alignment for the container items */
 nav {
   display: flex;

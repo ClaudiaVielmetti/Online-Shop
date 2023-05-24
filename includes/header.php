@@ -44,11 +44,11 @@ define("APPURL", "http://localhost/online-shop/");
     <section class="header">
 
         <nav class="fixed-nav">
-            <a href="Index.html"><img src="./assets/Images/reverse-white.png" alt="Logo" /></a>
+            <a href="index.php"><img src="./assets/Images/reverse-white.png" alt="Logo" /></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./index.php">HOME</a></li>
                     <li><a href="./about.html">ABOUT</a></li>
                     <li><a href="./lookbook.html">LOOKBOOK</a></li>
                     <li><a href="./shop.html">SHOP</a></li>

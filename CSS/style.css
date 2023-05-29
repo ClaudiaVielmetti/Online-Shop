@@ -140,6 +140,11 @@ nav img {
   cursor: pointer;
 }
 
+
+
+
+
+
 /* responsive design code for HERO Section*/
 
 /* burger bar for responsive hidden */
@@ -397,6 +402,8 @@ ul {
   margin: 0px;
   padding: 0px;
 }
+
+
 .footer-section {
   background: #151414;
   position: relative;

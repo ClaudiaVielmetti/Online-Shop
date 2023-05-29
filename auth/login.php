@@ -3,11 +3,11 @@
 
 
 <!-- Home -->
-<section class="home">
+<section class="home" >
     <div class="form_container">
-        <i class="uil uil-times form_close"></i>
+
         <!-- Login From -->
-        <div class="form login_form">
+        <div class="form login_form"style="display: flex; justify-content: center; margin-top: 15px">
             <form action="#">
                 <h2>Login</h2>
                 <div class="input_box">

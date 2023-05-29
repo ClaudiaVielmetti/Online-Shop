@@ -1,14 +1,15 @@
 <?php require "../includes/header.php"; ?>
 <?php require "../config/config.php"; ?>
 
+
 <section class="reg_form" style="display: flex; justify-content: center; margin-top: 15px">
     <div class="container_register">
         <div class="register-form">
             <form action="">
-                <h2 style="text-align: center; margin-bottom:20px;">Register</h2>
+                <h2 style=" margin-bottom:20px;">Register</h2>
                 <div class="input_box" style="margin-bottom: 20px;">
                     <input type="email" placeholder="Enter your email" required />
-                    <i class="fa-thin fa-envelope" style="color: #000000;"></i>
+                    <i class="fa-fa-envelope" style="color: #000000;"></i>
                 </div>
                 <div class="input_box" style="margin-bottom: 20px;">
                     <input type="password" placeholder="Create password" required />

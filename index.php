@@ -2,6 +2,11 @@
 <?php require "config/config.php"; ?>
 
 <!--New products-->
+<div class="text-box">
+  <h2>Something for everyone</h2>
+  <br />
+  <a href="./shop.html" class="hero-btn">SHOP NOW</a>
+</div>
 
 <div class="categories">
   <div class="small-container">

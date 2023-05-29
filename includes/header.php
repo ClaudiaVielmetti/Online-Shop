@@ -48,13 +48,13 @@ define("APPURL", "http://localhost/online-shop/");
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="./index.php">HOME</a></li>
+                    <li><a href="<?php echo APPURL; ?>/index.php">HOME</a></li>
                     <li><a href="./about.html">ABOUT</a></li>
                     <li><a href="./lookbook.html">LOOKBOOK</a></li>
                     <li><a href="./shop.html">SHOP</a></li>
                     <li><a href="./contact.html">CONTACT</a></li>
-                    <li><a href="../auth/login.php">LOGIN</a></li>
-                    <li><a href="../auth/register.php">REGISTER</a></li>
+                    <li><a href="<?php echo APPURL; ?>/auth/login.php">LOGIN</a></li>
+                    <li><a href="<?php echo APPURL; ?>/auth/register.php">REGISTER</a></li>
 
                     <li>
                         <a href="./cart.html"><i class="bi bi-bag" id="cart-icon"></i></a>
@@ -63,9 +63,5 @@ define("APPURL", "http://localhost/online-shop/");
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <div class="text-box">
-            <h2>Something for everyone</h2>
-            <br />
-            <a href="./shop.html" class="hero-btn">SHOP NOW</a>
-        </div>
+       
     </section>

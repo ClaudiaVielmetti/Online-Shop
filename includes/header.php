@@ -16,22 +16,22 @@ define("APPURL", "http://localhost/online-shop/");
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!--This is my favicon icon in my tab-->
-    <link rel="icon" type="image/png" href="./assets/favicon.ico" sizes="16x16" />
+    <link rel="icon" type="image/png" href="<?php echo APPURL; ?>/assets/favicon.ico" sizes="16x16" />
 
-    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="<?php echo APPURL; ?>/css/slider.css" />
     <!-- google fonts link goes here . Get it from Google Fonts after selecting the various weights -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="<?php echo APPURL; ?>/https://fonts.googleapis.com" />
+    <link rel="preconnect" href="<?php echo APPURL; ?>/https://fonts.gstatic.com" crossorigin />
+    <link href="<?php echo APPURL; ?>/https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet" />
     <!-- link to responsive JAVASCRIPT used for the burger bar menu . YOu need this to have a menu icon when responsive -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="<?php echo APPURL; ?>/https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="<?php echo APPURL; ?>/https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap" rel="stylesheet" />
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link href="<?php echo APPURL; ?>/https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <script src="<?php echo APPURL; ?>/https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo APPURL; ?>/https://kit.fontawesome.com/a81368914c.js"></script>
+    <link href="<?php echo APPURL; ?>/https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap" rel="stylesheet" />
+    <script src="<?php echo APPURL; ?>/https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
     <link rel="stylesheet" href="<?php echo APPURL; ?>/css/style.css" />
     <title>Reverse | HOME</title>
@@ -55,7 +55,7 @@ define("APPURL", "http://localhost/online-shop/");
                     <li><a href="./contact.html">CONTACT</a></li>
                     <li><a href="../auth/login.php">LOGIN</a></li>
                     <li><a href="../auth/register.php">REGISTER</a></li>
-                  
+
                     <li>
                         <a href="./cart.html"><i class="bi bi-bag" id="cart-icon"></i></a>
                     </li>

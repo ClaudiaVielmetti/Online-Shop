@@ -33,7 +33,7 @@ define("APPURL", "http://localhost/online-shop/");
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="<?php echo APPURL; ?>/css/style.css" />
     <title>Reverse | HOME</title>
 
 
@@ -44,7 +44,7 @@ define("APPURL", "http://localhost/online-shop/");
     <section class="header">
 
         <nav class="fixed-nav">
-            <a href="index.php"><img src="./assets/Images/reverse-white.png" alt="Logo" /></a>
+            <a href="index.php"><img src="<?php echo APPURL; ?>/assets/Images/reverse-white.png" alt="Logo" /></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
@@ -53,8 +53,8 @@ define("APPURL", "http://localhost/online-shop/");
                     <li><a href="./lookbook.html">LOOKBOOK</a></li>
                     <li><a href="./shop.html">SHOP</a></li>
                     <li><a href="./contact.html">CONTACT</a></li>
-                    <li><a href="./auth/login.php">LOGIN</a></li>
-                    <li><a href="./auth/register.php">REGISTER</a></li>
+                    <li><a href="../auth/login.php">LOGIN</a></li>
+                    <li><a href="../auth/register.php">REGISTER</a></li>
                   
                     <li>
                         <a href="./cart.html"><i class="bi bi-bag" id="cart-icon"></i></a>

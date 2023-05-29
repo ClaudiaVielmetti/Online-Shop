@@ -53,8 +53,8 @@ define("APPURL", "http://localhost/online-shop/");
                     <li><a href="./lookbook.html">LOOKBOOK</a></li>
                     <li><a href="./shop.html">SHOP</a></li>
                     <li><a href="./contact.html">CONTACT</a></li>
-                    <li><a href="./contact.html">LOGIN</a></li>
-                    <li><a href="./contact.html">REGISTER</a></li>
+                    <li><a href="./auth/login.php">LOGIN</a></li>
+                    <li><a href="./auth/register.php">REGISTER</a></li>
                   
                     <li>
                         <a href="./cart.html"><i class="bi bi-bag" id="cart-icon"></i></a>

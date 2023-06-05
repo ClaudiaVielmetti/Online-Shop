@@ -33,35 +33,50 @@ define("APPURL", "http://localhost/online-shop/");
     <link href="<?php echo APPURL; ?>/https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap" rel="stylesheet" />
     <script src="<?php echo APPURL; ?>/https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
-    <link rel="stylesheet" href="<?php echo APPURL; ?>/css/style.css" />
+    <link rel="stylesheet" href="<?php echo APPURL; ?>./css/style.css" />
     <title>Reverse | HOME</title>
 
 
 </head>
 
 <body>
-    <!-- header and navigation section -->
-    <section class="header">
+   
+        <header id="header">
 
-        <nav class="fixed-nav">
-            <a href="index.php"><img src="<?php echo APPURL; ?>/assets/Images/reverse-white.png" alt="Logo" /></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="<?php echo APPURL; ?>/index.php">HOME</a></li>
-                    <li><a href="./about.html">ABOUT</a></li>
-                    <li><a href="./lookbook.html">LOOKBOOK</a></li>
-                    <li><a href="./shop.html">SHOP</a></li>
-                    <li><a href="./contact.html">CONTACT</a></li>
-                    <li><a href="<?php echo APPURL; ?>/auth/login.html">LOGIN</a></li>
-                   
+            <div id="normal-header">
+                <a href="#" id="image-link"><img src="./assets/Images/reverse-white.png" alt="Reverse Logo" id="header-img" /></a>
 
-                    <li>
-                        <a href="./cart.html"><i class="bi bi-bag" id="cart-icon"></i></a>
-                    </li>
-                </ul>
+                <nav id="nav-bar">
+                    <ul>
+                        <li class="nav-link" id="menu-item"><a href="#hero-header" class="menu-link"> Home </a></li>
+                        <li class="nav-link" id="menu-item"><a href="#features-container" class="menu-link"> Features </a></li>
+                        <li class="nav-link" id="menu-item"><a href="#presentation-container" class="menu-link"> Products </a></li>
+                        <li class="nav-link" id="menu-item"><a href="#main-media-container" class="menu-link"> Media </a></li>
+                        <li class="nav-link" id="menu-item"><a href="#prices-section-container" class="menu-link"> Pricing </a>
+                        <li>
+                    </ul>
+                </nav>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-       
-    </section>
+
+
+            <div id="responsive-header">
+                <div id="responsive-logo-button">
+                    <a href="#" id="image-link"><img src="./assets/Images/reverse-black.png" alt="Reverse Logo" id="header-img-black" /></a>
+                    <button id="image-button-black"><img src="https://i.ibb.co/yfM3fdZ/dropdown-menu-black.png" alt="Dropdown Menu" id="dropdown-button-black" /></button>
+                </div>
+
+                <div id="responsive-nav-bar">
+                    <ul>
+                        <li class="nav-link" id="responsive-home-item"><a href="#hero-header" class="responsive-menu-link"> Home </a></li>
+                        <li class="nav-link" id="responsive-features-item"><a href="#features-container" class="responsive-menu-link"> Features </a></li>
+                        <li class="nav-link" id="responsive-products-item"><a href="#presentation-container" class="responsive-menu-link"> Products </a></li>
+                        <li class="nav-link" id="responsive-media-item"><a href="#main-media-container" class="responsive-menu-link"> Media </a></li>
+                        <li class="nav-link" id="responsive-pricing-item"><a href="#prices-section-container" class="responsive-menu-link"> Pricing </a>
+                        <li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+
+</body>

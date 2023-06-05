@@ -1,87 +1,117 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
 body {
+  width: auto;
+  height: auto;
+  /* font-size: 18px; */
+  font-family: "Noto Sans";
+}
+
+#red-text {
+  color: #ff5a6e;
+}
+
+#title-text-separator {
+  width: 5%;
+  margin-top: 1%;
+  border: solid 1px #ff5a6e;
+}
+
+.responsive-menu-link {
+  color: black;
+}
+
+/* ----- General Header CSS ------ */
+
+#header {
+  position: fixed;
+  display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: #fff;
-}
-
-/* Styling the banner hero section area */
-.header {
-  min-height: 100vh;
+  flex-wrap: wrap;
   width: 100%;
-  background-image: linear-gradient(
-      rgba(4, 9, 30, 0.7),
-      rgba(255, 255, 255, 0.127)
-    ),
-    url("../assets/Images/banner.jpg");
-  background-position: center;
-  background-size: cover;
-  position: relative;
+  margin: auto;
+  font-size: 19px;
+  min-height: 100px;
+  background-color: #555;
+  opacity: 0.5;
 }
 
-/* display the alignment for the container items */
-nav {
+
+
+/* Normal Header */
+
+.active-header {
+  color: black;
+}
+
+.menu-link {
+  color: white;
+}
+
+.active-menu-links {
+  color: black;
+}
+
+#normal-header {
+  position: fixed;
   display: flex;
-  padding: 2% 6%;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-}
-
-/* The LEFT logo image size goes here*/
-nav img {
-  width: 150px;
-}
-
-/* Aligning the links to the right  */
-.nav-links {
-  flex: 1;
-  text-align: right;
-}
-
-/* styling the text  */
-.nav-links ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 8px 12px;
-  position: relative;
-}
-
-/* styling the links itself  with color and font size etc etc*/
-.nav-links ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 13px;
-}
-
-/* styling the hover effect on the links when you hover*/
-.nav-links ul li ::after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #96be25;
-  display: block;
+  width: 100%;
   margin: auto;
-  transition: 0.5s;
+  font-size: 19px;
+  min-height: 100px;
 }
 
-/* styling what happens after you hover on it  */
-.nav-links ul li :hover::after {
-  width: 100%;
+#header-img {
+  width: 250px;
+  margin-left: 15%;
 }
 
-.fixed-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+}
+
+#nav-bar li {
+  padding: 10px;
+  margin: 12px;
+}
+
+#nav-bar ul,
+a {
+  text-decoration: none;
+}
+
+/* Responsive Header */
+
+#responsive-header {
+  display: none;
+}
+
+#image-button-black {
+  display: none;
+  border: none;
+}
+
+#image-button-black:hover {
+  cursor: pointer;
+}
+
+#image-button-black:focus {
+  outline: 0;
 }
 
 /* Banner Content Section */

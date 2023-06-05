@@ -99,7 +99,7 @@ h6 span {
   background-image: url("/img/subtle-prism.png");
   position: absolute;
   border-radius: 6px;
-  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 .card-back {
   transform: rotateY(180deg);

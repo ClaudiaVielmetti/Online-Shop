@@ -398,159 +398,125 @@ ul {
   padding: 0px;
 }
 
-.footer-section {
-  background: #151414;
-  position: relative;
-}
-.footer-cta {
-  border-bottom: 1px solid #373636;
-}
-.single-cta i {
-  color: #ff5e14;
-  font-size: 30px;
-  float: left;
-  margin-top: 8px;
-}
-.cta-text {
-  padding-left: 15px;
-  display: inline-block;
-}
-.cta-text h4 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 2px;
-}
-.cta-text span {
-  color: #757575;
-  font-size: 15px;
-}
-.footer-content {
-  position: relative;
-  z-index: 2;
-}
-.footer-pattern img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 330px;
-  background-size: cover;
-  background-position: 100% 100%;
-}
-.footer-logo {
-  margin-bottom: 30px;
-}
-.footer-logo img {
-  max-width: 200px;
-}
-.footer-text p {
-  margin-bottom: 14px;
-  font-size: 14px;
-  color: #7e7e7e;
-  line-height: 28px;
-}
-.footer-social-icon span {
-  color: #fff;
-  display: block;
-  font-size: 20px;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
-}
-.footer-social-icon a {
-  color: #fff;
+footer {
+  background-color: #121315;
+  color: #a7a7a7;
   font-size: 16px;
-  margin-right: 15px;
 }
-.footer-social-icon i {
-  height: 40px;
-  width: 40px;
-  text-align: center;
-  line-height: 38px;
-  border-radius: 50%;
-}
-.facebook-bg {
-  background: #3b5998;
-}
-.twitter-bg {
-  background: #55acee;
-}
-.google-bg {
-  background: #dd4b39;
-}
-.footer-widget-heading h3 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 40px;
-  position: relative;
-}
-.footer-widget-heading h3::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -15px;
-  height: 2px;
-  width: 50px;
-  background: #ff5e14;
-}
-.footer-widget ul li {
-  display: inline-block;
 
-  width: 50%;
-  margin-bottom: 12px;
+footer * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
 }
-.footer-widget ul li a:hover {
-  color: #ff5e14;
+
+.row {
+  padding: 1em 1em;
 }
-.footer-widget ul li a {
-  color: #878787;
-  text-transform: capitalize;
+
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
 }
-.subscribe-form {
-  position: relative;
-  overflow: hidden;
-}
-.subscribe-form input {
+
+.column {
   width: 100%;
-  padding: 14px 28px;
-  background: #2e2e2e;
-  border: 1px solid #2e2e2e;
-  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
 }
-.subscribe-form button {
-  position: absolute;
-  right: 0;
-  background: #ff5e14;
-  padding: 13px 20px;
-  border: 1px solid #ff5e14;
-  top: 0;
+
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
 }
-.subscribe-form button i {
-  color: #fff;
-  font-size: 22px;
-  transform: rotate(-6deg);
-}
-.copyright-area {
-  background: #202020;
-  padding: 25px 0;
-}
-.copyright-text p {
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
   margin: 0;
-  font-size: 14px;
-  color: #878787;
 }
-.copyright-text p a {
-  color: #ff5e14;
+
+li:not(:first-child) {
+  margin-top: 0.8em;
 }
-.footer-menu li {
-  display: inline-block;
-  margin-left: 20px;
+
+ul li a {
+  color: #a7a7a7;
+  text-decoration: none;
 }
-.footer-menu li:hover a {
-  color: #ff5e14;
+
+ul li a:hover {
+  color: #2a8ded;
 }
-.footer-menu li a {
-  font-size: 14px;
-  color: #878787;
+
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+
+input,
+button {
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #c7940a;
+  color: #ffffff;
+}
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+
+.social i {
+  color: #bac6d9;
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #25262e;
+}
+
+.footer-menu {
+  float: left;
+  margin-top: 10px;
+}
+
+.footer-menu a {
+  color: #cfd2d6;
+  padding: 6px;
+
+  text-decoration: none;
+}
+
+.footer-menu a:hover {
+  color: #27bcda;
+}
+
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
 }

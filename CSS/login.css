@@ -3,17 +3,18 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   line-height: 1.7;
-  color: #ffeba7;
+  color: #fff;
   background-color: #1f2029;
 }
 a:hover {
   text-decoration: none;
 }
 .link {
-  color: #ffeba7;
+  color: #be2596;
+  ;
 }
 .link:hover {
-  color: #c4c3ca;
+  color: #ce4aab;
 }
 p {
   font-weight: 500;
@@ -49,7 +50,7 @@ h6 span {
   padding: 0;
   margin: 10px auto;
   cursor: pointer;
-  background-color: #ffeba7;
+  background-color: #41e04e;
 }
 .checkbox:checked + label:before,
 .checkbox:not(:checked) + label:before {
@@ -58,7 +59,7 @@ h6 span {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  color: #ffeba7;
+  color: #41e04e;
   background-color: #020305;
   font-family: "unicons";
   content: "\eb4f";
@@ -160,6 +161,7 @@ h6 span {
 }
 .btn {
   border-radius: 4px;
+  border: solid 1px #fff;
   height: 44px;
   font-size: 13px;
   font-weight: 600;
@@ -172,11 +174,11 @@ h6 span {
   display: -ms-inline-flexbox;
   display: inline-flex;
   align-items: center;
-  background-color: #ffeba7;
-  color: #000000;
+  background-color: transparent;
+  color: #fff;
 }
 .btn:hover {
-  background-color: #000000;
-  color: #ffeba7;
+  background-color: #be2596;
+  color: #fff;
   box-shadow: 0 8px 24px 0 rgba(16, 39, 112, 0.2);
 }

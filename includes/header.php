@@ -79,4 +79,3 @@ define("APPURL", "http://localhost/online-shop/");
 
         </header>
 
-</body>

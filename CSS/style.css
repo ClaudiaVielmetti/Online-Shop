@@ -1,214 +1,137 @@
-html {
-  scroll-behavior: smooth;
-}
+html { /* Define styling for the <html> element */
+  scroll-behavior: smooth; /* Smooth scrolling should be enabled */
+} /* End of <html> styling */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { /* Define styling for the universal selector */
+  margin: 0; /* All margins should be 0 */
+  padding: 0; /* All padding should be 0 */
+  box-sizing: border-box; /* The box model should be border-box */
+} /* End of universal selector styling */
 
-body {
-  width: auto;
-  height: auto;
-  /* font-size: 18px; */
-  font-family: "Noto Sans";
-}
+body { /* Define styling for the <body> element */
+  font-family: "Noto Sans"; /* The font family should be Noto Sans */
+} /* End of <body> element styling */
 
-#red-text {
-  color: #ff5a6e;
-}
+#header { /* Define styling for the element with id="header" */
+  display: flex; /* The display property should be flex */
+  justify-content: center; /* The justify-content property should be center */
+  align-items: center; /* The align-items property should be center */
+  width: 100%; /* The width should be 100% */
+  font-size: 19px; /* The font size should be 19px */
+  background-color: #555; /* The background color should be 555 */
+} /* End of id="header" element styling */
 
-#title-text-separator {
-  width: 5%;
-  margin-top: 1%;
-  border: solid 1px #ff5a6e;
-}
+#nav-bar ul { /* Define styling for the <ul> element with id="nav-bar" */
+  list-style: none; /* There should be no list style */
+  display: flex; /* The display property should be flex */
+  flex-flow: row; /* The flex-flow property should be row */
+} /* End of <ul> element styling */
 
-.responsive-menu-link {
-  color: black;
-}
-
-/* ----- General Header CSS ------ */
-
-#header {
-  position: fixed;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: auto;
-  font-size: 19px;
-  min-height: 100px;
-  background-color: #555;
-  opacity: 0.5;
-}
-
-/* Normal Header */
-
-.active-header {
-  color: black;
-}
-
-.menu-link {
-  color: white;
-}
-
-.active-menu-links {
-  color: black;
-}
-
-#normal-header {
-  position: fixed;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  margin: auto;
-  font-size: 19px;
-  min-height: 100px;
-}
-
-#header-img {
-  width: 250px;
-  margin-left: 15%;
-}
-
-#nav-bar ul {
-  list-style: none;
-  display: flex;
-  flex-flow: row;
-}
-
-#nav-bar li {
-  padding: 10px;
-  margin: 12px;
-}
+#nav-bar li { /* Define styling for the <li> element with id="nav-bar" */
+  padding: 10px; /* The padding should be 10px */
+  margin: 12px; /* The margin should be 12px */
+} /* End of <li> element styling */
 
 #nav-bar ul,
-a {
-  text-decoration: none;
-}
+a { /* Define styling for the <ul> element with id="nav-bar" and the <a> element */
+  text-decoration: none; /* The text-decoration should be none */
+} /* End of <ul> element and <a> element styling */
 
-/* Responsive Header */
 
-#responsive-header {
-  display: none;
-}
+.text-box { /* Define styling for the element with class="text-box" */
+  width: 90%; /* The width should be 90% */
+  color: #fff; /* The color should be fff */
+  position: absolute; /* The position should be absolute */
+  top: 50%; /* The top property should be 50% */
+  left: 50%; /* The left property should be 50% */
+  transform: translate(-50%, -50%); /* The transform property should be translate(-50%, -50%) */
+  text-align: center; /* The text-align property should be center */
+} /* End of element with class="text-box" styling */
 
-#image-button-black {
-  display: none;
-  border: none;
-}
+.text-box h1 { /* Define styling for the <h1> element with class="text-box" */
+  font-size: 62px; /* The font size should be 62px */
+} /* End of <h1> element styling */
 
-#image-button-black:hover {
-  cursor: pointer;
-}
+.text-box p { /* Define styling for the <p> element with class="text-box" */
+  margin: 10px 0 40px; /* The margin should be 10px 0 40px */
+  font-size: 14px; /* The font size should be 14px */
+  color: #fff; /* The color should be fff */
+} /* End of <p> element styling */
 
-#image-button-black:focus {
-  outline: 0;
-}
 
-/* Banner Content Section */
+.hero-btn { /* Define styling for the element with class="hero-btn" */
+  display: inline-block; /* The display property should be inline-block */
+  text-decoration: none; /* The text-decoration should be none */
+  color: #fff; /* The color should be fff */
+  border: 1px solid #fff; /* The border should be 1px solid fff */
+  padding: 12px 34px; /* The padding should be 12px 34px */
+  font-size: 13px; /* The font size should be 13px */
+  background: transparent; /* The background should be transparent */
+  position: relative; /* The position should be relative */
+  cursor: pointer; /* The cursor should be pointer */
+} /* End of element with class="hero-btn" styling */
 
-/* styling the center text  */
-.text-box {
-  width: 90%;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 
-.text-box h1 {
-  font-size: 62px;
-}
+.hero-btn:hover { /* Define styling for the element with class="hero-btn" when it is hovered */
+  border: 1px solid #be2596; /* The border should be 1px solid be2596 */
+  background: #be2596; /* The background should be be2596 */
+  transition: 1s; /* The transition property should be 1s */
+  color: #fff; /* The color should be fff */
+} /* End of element with class="hero-btn" hover styling */
 
-.text-box p {
-  margin: 10px 0 40px;
-  font-size: 14px;
-  color: #fff;
-}
+.hero-btn-clean { /* Define styling for the element with class="hero-btn-clean" */
+  display: inline-block; /* The display property should be inline-block */
+  text-decoration: none; /* The text-decoration should be none */
+  color: #000; /* The color should be 000 */
+  border: 1px solid #000; /* The border should be 1px solid 000 */
+  padding: 12px 34px; /* The padding should be 12px 34px */
+  font-size: 13px; /* The font size should be 13px */
+  background: transparent; /* The background should be transparent */
+  position: relative; /* The position should be relative */
+  cursor: pointer; /* The cursor should be pointer */
+} /* End of element with class="hero-btn-clean" styling */
 
-/* styling the middle banner button */
-.hero-btn {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid #fff;
-  padding: 12px 34px;
-  font-size: 13px;
-  background: transparent;
-  position: relative;
-  cursor: pointer;
-}
 
-/* styling the hover effect when your cursor is on the button */
-.hero-btn:hover {
-  border: 1px solid #be2596;
-  background: #be2596;
-  transition: 1s;
-  color: #fff;
-}
 
-.hero-btn-clean {
-  display: inline-block;
-  text-decoration: none;
-  color: #000;
-  border: 1px solid #000;
-  padding: 12px 34px;
-  font-size: 13px;
-  background: transparent;
-  position: relative;
-  cursor: pointer;
-}
 
-/* responsive design code for HERO Section*/
+nav .fa { /* Define styling for the element with class="fa" and is inside a <nav> element */
+  display: none; /* The display property should be none */
+} /* End of element with class="fa" and is inside a <nav> element styling */
 
-/* burger bar for responsive hidden */
-nav .fa {
-  display: none;
-}
+@media (max-width: 700px) { /* Define styling for media query that only applies to widths of 700px or less */
+  .text-box h1 { /* Define styling for the <h1> element with class="text-box" */
+    font-size: 20px; /* The font size should be 20px */
+  } /* End of <h1> element styling */
 
-@media (max-width: 700px) {
-  .text-box h1 {
-    font-size: 20px;
-  }
+  .nav-links ul li { /* Define styling for the <li> element with class="nav-links" and is inside a <ul> element */
+    display: block; /* The display property should be block */
+  } /* End of <li> element with class="nav-links" and is inside a <ul> element styling */
 
-  .nav-links ul li {
-    display: block;
-  }
+  .nav-links { /* Define styling for the element with class="nav-links" */
+    position: fixed; /* The position should be fixed */
+    background: #96be25; /* The background should be 96be25 */
+    height: 100vh; /* The height should be 100vh */
+    width: 200px; /* The width should be 200px */
+    top: 0%; /* The top property should be 0% */
+    right: -200px; /* The right property should be -200px */
+    text-align: left; /* The text-align property should be left */
+    z-index: 2; /* The z-index property should be 2 */
+    transition: 1s; /* The transition property should be 1s */
+  } /* End of element with class="nav-links" styling */
 
-  .nav-links {
-    position: fixed;
-    background: #96be25;
-    height: 100vh;
-    width: 200px;
-    top: 0%;
-    right: -200px;
-    text-align: left;
-    z-index: 2;
-    transition: 1s;
-  }
+  
+  nav .fa { /* Define styling for the element with class="fa" and is inside a <nav> element */
+    display: block; /* The display property should be block */
+    color: #fff; /* The color should be fff */
+    margin: 10px; /* The margin should be 10px */
+    font-size: 22px; /* The font size should be 22px */
+    cursor: pointer; /* The cursor should be pointer */
+  } /* End of element with class="fa" and is inside a <nav> element styling */
 
-  /* burger bar displayed when open  */
-  nav .fa {
-    display: block;
-    color: #fff;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
-  }
-
-  .nav-links ul {
-    padding: 30px;
-  }
-}
+  .nav-links ul { /* Define styling for the <ul> element with class="nav-links" */
+    padding: 30px; /* The padding should be 30px */
+  } /* End of <ul> element with class="nav-links" styling */
+} /* End of media query styling */
 
 /*New product cards*/
 .container {
